@@ -16,8 +16,8 @@ const Home: NextPage = () => {
           <NavBar />
         </div>
 
-        <div className="grid grid-cols-2 gap-x-7">
-          <div className="overflow-hiden flex  justify-center  bg-cover">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-7">
+          <div className="overflow-hidden flex justify-center bg-cover">
             <Image
               src="/Emmett.jpg"
               className="rounded-full shadow-xl transition-all duration-1000 hover:scale-105 hover:shadow-2xl"
@@ -29,7 +29,7 @@ const Home: NextPage = () => {
 
           <div className="row-span-2 grid grid-rows-4 gap-y-2 justify-between text-white">
             <div>
-              <h2 className="hover  text-8xl font-bold transition-all duration-500">
+              <h2 className="hover text-8xl font-bold transition-all duration-500">
                 Emmett Hintz
               </h2>
             </div>
