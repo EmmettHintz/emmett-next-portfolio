@@ -78,7 +78,7 @@ const contact = () => {
               <div>
                 <Image
                   src="/ColgateImage.png"
-                  className="rounded-full shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-slate-700 hover:ring-opacity-50"
+                  className="rounded-full border-dashed shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-slate-700 hover:ring-opacity-50"
                   alt="colgate"
                   width={200}
                   height={200}
