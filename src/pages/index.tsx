@@ -16,25 +16,44 @@ const Home: NextPage = () => {
           <NavBar />
         </div>
 
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-2 gap-x-7">
           <div className="flex justify-center">
             <Image
               src="/Emmett.jpg"
-              className="rounded-full shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-slate-700 hover:ring-opacity-50"
+              className="rounded-full shadow-xl hover:shadow-2xl hover:scale-125 transition-all duration-500 "
               alt="Emmett Hintz"
               width={450}
               height={450}
             />
           </div>
 
-          <div>
-            <div>
-              <h2 className="text-4xl font-bold text-white transition-all duration-500 hover:text-sky-400 hover:underline">
-                Emmett Hintz
-              </h2>
+          <div className="bg-red-400">
+            <div className="flex-row row-span-2 justify-between text-white">
+              <div>
+                <h2 className="text-8xl  font-bold transition-all duration-500 hover">
+                  Emmett Hintz
+                </h2>
+              </div>
+
+              <div>
+                <h2 className="text-3xl font-bold">Full-Stack Developer</h2>
+              </div>
+              <div>
+                <p className="text-lg">
+                  Hi! My name is Emmett Hintz and I am a rising junior at
+                  Colgate University teahcing myself full stack development. This summer, I am focusing on building apps that interest me and will help me learn new skills. I have a few projects in the works, so stay tuned!
+                </p>
+              </div>
             </div>
           </div>
+          {/* under picture */}
+          <div className="pt-16">
+            <p className="text-emerald-400">placeholder</p>
+          </div>
+
+          {/* Under name */}
         </div>
+
       </main>
     </>
   );
