@@ -3,11 +3,11 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import NavBar from "components/NavBar";
 import Image from "next/image";
 
-const contact = () => {
+const resume = () => {
   return (
     <>
-      <main className="h-screen bg-slate-800 px-20 text-white">
-        <div className="h-auto w-32">
+     <main className="h-screen bg-slate-800 px-20 text-white">
+        <div className="h-auto w-32 pb-16 text-red-400">
           <NavBar />
         </div>
 
@@ -128,4 +128,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default resume;

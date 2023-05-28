@@ -17,35 +17,42 @@ const Home: NextPage = () => {
         </div>
 
         <div className="grid grid-cols-2 gap-x-7">
-          <div className="flex justify-center">
+          <div className="overflow-hiden flex  justify-center  bg-cover">
             <Image
               src="/Emmett.jpg"
-              className="rounded-full shadow-xl hover:shadow-2xl hover:scale-125 transition-all duration-500 "
+              className="rounded-full shadow-xl transition-all duration-1000 hover:scale-105 hover:shadow-2xl"
               alt="Emmett Hintz"
               width={450}
               height={450}
             />
           </div>
 
-          <div className="bg-red-400">
-            <div className="flex-row row-span-2 justify-between text-white">
-              <div>
-                <h2 className="text-8xl  font-bold transition-all duration-500 hover">
-                  Emmett Hintz
-                </h2>
-              </div>
+          <div className="row-span-2 grid grid-rows-4 gap-y-2 justify-between text-white">
+            <div>
+              <h2 className="hover  text-8xl font-bold transition-all duration-500">
+                Emmett Hintz
+              </h2>
+            </div>
 
-              <div>
-                <h2 className="text-3xl font-bold">Full-Stack Developer</h2>
-              </div>
-              <div>
-                <p className="text-lg">
-                  Hi! My name is Emmett Hintz and I am a rising junior at
-                  Colgate University teahcing myself full stack development. This summer, I am focusing on building apps that interest me and will help me learn new skills. I have a few projects in the works, so stay tuned!
-                </p>
-              </div>
+            <div>
+              <h2 className="text-3xl font-bold">Full-Stack Developer</h2>
+            </div>
+            <div>
+              <p className="text-xl">
+                Hello! My name is Emmett and I am a rising junior at Colgate
+                University and I am teaching myself full stack development.
+              </p>
+            </div>
+            <div>
+              <p className="text-xl">
+                This summer, I am focusing on building apps that interest me and
+                will help me learn new skills. I have a few projects in the
+                works, so stay tuned! This fall I will be interning at Tewke as
+                a junior developer!
+              </p>
             </div>
           </div>
+
           {/* under picture */}
           <div className="pt-16">
             <p className="text-emerald-400">placeholder</p>
@@ -53,7 +60,6 @@ const Home: NextPage = () => {
 
           {/* Under name */}
         </div>
-
       </main>
     </>
   );
