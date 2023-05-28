@@ -24,7 +24,7 @@ const contact = () => {
         </div>
 
         {/* left header */}
-        <div className="grid grid-flow-row grid-cols-2 gap-x-36">
+        <div className="grid grid-cols-2 gap-x-36">
           <div className=" flex justify-between pb-2">
             <div>
               <p className="underline underline-offset-4 shadow-md">
@@ -78,7 +78,7 @@ const contact = () => {
               <div>
                 <Image
                   src="/ColgateImage.png"
-                  className="rounded-full border-dashed shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-slate-700 hover:ring-opacity-50"
+                  className="rounded-full shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-slate-700 hover:ring-opacity-50"
                   alt="colgate"
                   width={200}
                   height={200}
