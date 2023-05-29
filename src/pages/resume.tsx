@@ -7,7 +7,7 @@ const resume = () => {
   return (
     <>
      <main className="h-screen bg-slate-800 px-20 text-white">
-        <div className="h-auto w-32 pb-16 text-red-400">
+        <div className="h-auto w-32 pb-4 text-red-400">
           <NavBar />
         </div>
 
@@ -78,7 +78,7 @@ const resume = () => {
               <div>
                 <Image
                   src="/ColgateImage.png"
-                  className="rounded-full shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-slate-700 hover:ring-opacity-50"
+                  className="rounded-full shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-neutral-600 hover:ring-opacity-50"
                   alt="colgate"
                   width={200}
                   height={200}
@@ -88,7 +88,7 @@ const resume = () => {
               <div>
                 <Image
                   src="/ColgateCampus.webp"
-                  className="aspect-square rounded-full shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-slate-700 hover:ring-opacity-50"
+                  className="aspect-square rounded-full shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-neutral-600 hover:ring-opacity-50"
                   alt="colgate-campus"
                   width={200}
                   height={200}
