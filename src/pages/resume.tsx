@@ -1,13 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import NavBar from "components/NavBar";
+import NavBar from "~/components/NavBar";
 import Image from "next/image";
 
 const resume = () => {
   return (
     <>
      <main className="h-screen bg-slate-800 px-20 text-white">
-        <div className="h-auto w-32 pb-4 text-red-400">
+        <div className="h-auto w-32 pb-4">
           <NavBar />
         </div>
 

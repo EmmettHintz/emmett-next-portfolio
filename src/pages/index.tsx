@@ -1,6 +1,6 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import NavBar from "components/NavBar";
+import NavBar from "~/components/NavBar";
 import Image from "next/image";
 
 const Home: NextPage = () => {
@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="h-screen bg-slate-800 px-20">
-        <div className="h-auto w-32 pb-16 text-red-400">
+        <div className="bg-red-200">
           <NavBar />
         </div>
 
@@ -20,10 +20,10 @@ const Home: NextPage = () => {
           <div className="flex justify-center bg-cover">
             <Image
               src="/Emmett.jpg"
-              className="rounded-full h-auto shadow-xl transition-all duration-1000 hover:scale-105 hover:shadow-2xl"
+              className="rounded-full shadow-xl transition-all duration-1000 hover:scale-105 hover:shadow-2xl"
               alt="Emmett Hintz"
-              width={450}
-              height={450}
+              width={600}
+              height={600}
             />
           </div>
 
@@ -38,13 +38,13 @@ const Home: NextPage = () => {
               <h2 className="text-3xl font-bold">Full-Stack Developer</h2>
             </div>
             <div>
-              <p className="text-xl">
+              <p className="text-2xl">
                 Hello! My name is Emmett and I am a rising junior at Colgate
                 University and I am teaching myself full stack development.
               </p>
             </div>
             <div>
-              <p className="text-xl">
+              <p className="text-2xl">
                 This summer, I am focusing on building apps that interest me and
                 will help me learn new skills. I have a few projects in the
                 works, so stay tuned! This fall I will be interning at Tewke as
