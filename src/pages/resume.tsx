@@ -19,7 +19,7 @@ const resume = () => {
           <div>
           <h3 className="pb-6 text-sm sm:text-md md:text-lg">
           415 Ellerslie Avenue | Ambler, PA 19002 | eahintz@colgate.edu |
-              215-767-1602 | <Link href="http://www.linkedin.com/in/emmett-hintz/" className="">LinkedIn.com/in/emmett-hintz/</Link>
+              215-767-1602 | <Link href="http://www.linkedin.com/in/emmett-hintz/">LinkedIn.com/in/emmett-hintz/</Link>
             </h3>
           </div>
         </div>
