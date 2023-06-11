@@ -15,15 +15,15 @@ const projects = () => {
       </div>
 
       <div className="flex h-[15%] w-[100%] justify-center py-8">
-        <p className="text-center text-lg sm:text-2xl text-rose-400">
+        <p className="text-center text-lg text-rose-400 sm:text-2xl">
           This summer, I am working on a few areas that currently interest me
           and I will be posting updates here.
         </p>
       </div>
 
-      <div className="grid h-auto grid-cols-1 md:grid-cols-2 py-8">
+      <div className="grid h-auto grid-cols-1 py-8 md:grid-cols-2">
         <div className="h-auto w-[100%] flex-col justify-center space-y-4 text-center  text-white">
-          <p className="text-2xl sm:text-4xl font-semibold text-rose-400">
+          <p className="text-2xl font-semibold text-rose-400 sm:text-4xl">
             Full-Stack Development
           </p>
 
@@ -34,16 +34,17 @@ const projects = () => {
           </p>
         </div>
 
-        <div className="flex-cols w-[100%] justify-center text-center ">
-          <p className="py-4 text-2xl sm:text-4xl font-bold text-sky-400">
+        <div className="flex-cols w-[100%] justify-center text-center">
+          <p className="py-4 text-2xl font-bold text-sky-400 sm:text-4xl">
             Present project:
           </p>
-          <a
-            href="www.litlocator.com"
-            className=" text-xl sm:text-3xl  font-semibold text-rose-400 transition-all duration-300 hover:text-rose-500 hover:underline"
+
+          <Link
+            href="https://litlocator.com/"
+            className=" text-rose-400 text-2xl hover:text-pink-500 hover:underline sm:text-4xl transition-all duration-500"
           >
-            litlocator
-          </a>
+            LitLocator
+          </Link>
         </div>
       </div>
     </div>
