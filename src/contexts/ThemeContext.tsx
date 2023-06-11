@@ -1,27 +1,29 @@
-import { createContext, useContext, useEffect, useState } from "react";
+// contexts/ThemeContext.tsx
+import { createContext, ReactNode, useContext, useEffect, useState } from 'react';
 
-const ThemeContext = createContext();
+type Theme = 'light' | 'dark';
+type ThemeContextProps = { theme: Theme; toggleTheme: () => void };
 
-export const useTheme = () => useContext(ThemeContext);
+const ThemeContext = createContext<ThemeContextProps>({} as ThemeContextProps);
 
-export const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState('light'); // default to light theme
+type ThemeProviderProps = {
+  children: ReactNode;
+};
 
-  // On mount, read the theme from local storage and update state
+export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
+  const [theme, setTheme] = useState<Theme>('light');
+
   useEffect(() => {
-    const currentTheme = localStorage.getItem('theme');
-    if (currentTheme) {
-      setTheme(currentTheme);
-    }
+    const localTheme = window.localStorage.getItem('theme') as Theme | null;
+    localTheme && setTheme(localTheme);
   }, []);
 
-  // When theme changes, update local storage
   useEffect(() => {
-    localStorage.setItem('theme', theme);
+    window.localStorage.setItem('theme', theme);
   }, [theme]);
 
   const toggleTheme = () => {
-    setTheme(prev => prev === 'light' ? 'dark' : 'light');
+    setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
   };
 
   return (
@@ -30,3 +32,5 @@ export const ThemeProvider = ({ children }) => {
     </ThemeContext.Provider>
   );
 };
+
+export const useTheme = () => useContext(ThemeContext);
