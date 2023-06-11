@@ -9,13 +9,13 @@ const projects = () => {
       </div>
 
       <div>
-        <h2 className="flex h-auto w-[100%] justify-center py-4 text-6xl font-bold text-white">
+        <h2 className="flex h-auto w-[100%] justify-center py-4 text-6xl font-bold text-rose-400">
           Projects
         </h2>
       </div>
 
       <div className="flex h-[15%] w-[100%] justify-center py-8">
-        <p className="text-center text-lg text-rose-400 sm:text-2xl">
+        <p className="text-center text-lg text-white sm:text-2xl">
           This summer, I am working on a few areas that currently interest me
           and I will be posting updates here.
         </p>
