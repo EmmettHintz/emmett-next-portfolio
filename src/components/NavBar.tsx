@@ -1,13 +1,11 @@
 import Link from "next/link";
-import ToggleDarkMode from "./ToggleDarkMode";
+import DarkModeToggle from "./DarkModeToggle";
 
 const NavBar = () => {
   return (
     <div className="relative w-full">
 
-      <div className="bg-white">
-        <ToggleDarkMode />
-      </div>
+      <DarkModeToggle />
 
       <div className="text-rose-400 text-xl">
         <ul className="nav-links flex  items-center justify-items-center py-4">

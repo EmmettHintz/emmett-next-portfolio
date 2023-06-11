@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Emmett Hintz's Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="min-h-screen bg-slate-800 px-4 sm:px-20">
+      <main className="min-h-screen bg-white dark:bg-slate-800 px-4 sm:px-20">
         <div className="">
           <NavBar />
         </div>
@@ -27,15 +27,15 @@ const Home: NextPage = () => {
             />
           </div>
 
-          <div className="flex h-auto flex-col justify-between gap-y-1 text-center text-white">
+          <div className="flex h-auto flex-col justify-between gap-y-1 text-black dark:text-white text-center">
             <div>
-              <h2 className="hover text-4xl font-bold text-rose-400 transition-all duration-500 sm:text-6xl md:text-8xl">
+              <h2 className="hover text-4xl font-bold text-rose-400 dark:text-rose-400 transition-all duration-500 sm:text-6xl md:text-8xl">
                 Emmett Hintz
               </h2>
             </div>
 
             <div>
-              <h2 className="text-5xl font-bold text-sky-400 sm:text-5xl">
+              <h2 className="text-5xl font-bold text-sky-400 dark:text-sky-500 sm:text-5xl">
                 Full-Stack Developer
               </h2>
             </div>
