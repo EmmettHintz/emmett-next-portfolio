@@ -7,7 +7,7 @@ import Link from "next/link";
 const resume = () => {
   return (
     <>
-      <main className="h-screen bg-slate-800 px-4 sm:px-20 text-white">
+  <main className="min-h-screen bg-slate-800 px-4 sm:px-20 text-white">
         <div className="pb-4">
           <NavBar />
         </div>
