@@ -27,7 +27,7 @@ const Home: NextPage = () => {
             />
           </div>
 
-          <div className="flex flex-col justify-between h-auto text-white">
+          <div className="flex flex-col justify-between pb-1 h-auto text-white">
             <div>
               <h2 className="hover text-4xl sm:text-6xl md:text-8xl text-rose-400 font-bold transition-all duration-500">
                 Emmett Hintz
