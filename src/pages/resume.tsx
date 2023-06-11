@@ -7,13 +7,13 @@ const resume = () => {
   return (
     <>
      <main className="h-screen bg-slate-800 px-20 text-white">
-        <div className="h-auto w-32 pb-4">
+        <div className=" pb-4">
           <NavBar />
         </div>
 
         <div className="flex-row content-center items-center justify-center py-4 text-center text-white ">
           <div>
-            <h2 className="pb-2 text-2xl font-bold">Emmett Hintz</h2>
+            <h2 className="pb-2 text-6xl font-bold">Emmett Hintz</h2>
           </div>
           <div>
             <h3 className="pb-6 text-lg">

@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="h-screen bg-slate-800 px-20">
-        <div className="bg-red-200">
+        <div className="">
           <NavBar />
         </div>
 
@@ -29,13 +29,13 @@ const Home: NextPage = () => {
 
           <div className="flex flex-col justify-between h-auto text-white">
             <div>
-              <h2 className="hover text-8xl font-bold transition-all duration-500">
+              <h2 className="hover text-8xl text-rose-400 font-bold transition-all duration-500">
                 Emmett Hintz
               </h2>
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold">Full-Stack Developer</h2>
+              <h2 className="text-3xl font-bold text-sky-400">Full-Stack Developer</h2>
             </div>
             <div>
               <p className="text-2xl">
