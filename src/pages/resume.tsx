@@ -2,29 +2,30 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import NavBar from "~/components/NavBar";
 import Image from "next/image";
+import Link from "next/link";
 
 const resume = () => {
   return (
     <>
-     <main className="h-screen bg-slate-800 px-20 text-white">
-        <div className=" pb-4">
+      <main className="h-screen bg-slate-800 px-4 sm:px-20 text-white">
+        <div className="pb-4">
           <NavBar />
         </div>
 
-        <div className="flex-row content-center items-center justify-center py-4 text-center text-white ">
+        <div className="flex flex-col justify-center items-center py-4 text-center text-white">
           <div>
-            <h2 className="pb-2 text-6xl font-bold">Emmett Hintz</h2>
+          <h2 className="pb-2 text-4xl sm:text-5xl md:text-6xl font-bold">Emmett Hintz</h2>
           </div>
           <div>
-            <h3 className="pb-6 text-lg">
-              415 Ellerslie Avenue | Ambler, PA 19002 | eahintz@colgate.edu |
-              215-767-1602 | http://www.linkedin.com/in/emmett-hintz/
+          <h3 className="pb-6 text-sm sm:text-md md:text-lg">
+          415 Ellerslie Avenue | Ambler, PA 19002 | eahintz@colgate.edu |
+              215-767-1602 | <Link href="http://www.linkedin.com/in/emmett-hintz/" className="">LinkedIn.com/in/emmett-hintz/</Link>
             </h3>
           </div>
         </div>
 
         {/* left header */}
-        <div className="grid grid-cols-2 gap-x-36">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 md:gap-x-36">
           <div className=" flex justify-between pb-2">
             <div>
               <p className="underline underline-offset-4 shadow-md">
