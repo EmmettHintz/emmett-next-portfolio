@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-x-7 h-auto md:grid-cols-2">
-          <div className="flex justify-center bg-cover">
+          <div className="flex justify-center py-4 bg-cover">
             <Image
               src="/Emmett.jpg"
               className="rounded-full shadow-xl transition-all duration-1000 hover:scale-105 hover:shadow-2xl sm:w-1/3 sm:h-auto md:w-3/4 md:h-auto lg:w-2/3 lg:h-auto"
