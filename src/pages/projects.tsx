@@ -3,7 +3,7 @@ import NavBar from "~/components/NavBar";
 
 const projects = () => {
   return (
-    <div className="h-screen w-full bg-gray-800 px-4 sm:px-20">
+    <div className="min-h-screen w-full bg-gray-800 px-4 sm:px-20">
       <div>
         <NavBar />
       </div>
