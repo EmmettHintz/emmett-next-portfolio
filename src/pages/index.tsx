@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Emmett Hintz's Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="h-screen bg-slate-800 px-4 sm:px-20">
+      <main className="min-h-screen bg-slate-800 px-4 sm:px-20">
         <div className="">
           <NavBar />
         </div>
