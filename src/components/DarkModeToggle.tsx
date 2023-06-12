@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTheme } from 'next-themes'
@@ -13,7 +12,7 @@ const DarkModeToggle: React.FC = () => {
 
   return (
     <button
-      className="fixed right-4 top-4 h-12 w-12 rounded  border border-gray-800 bg-white dark:border-gray-400 dark:bg-gray-800 flex items-center justify-center sm:right-6 sm:top-6 sm:h-16 sm:w-16"
+      className="absolute right-4 top-4 h-12 w-12 rounded  border border-gray-800 bg-white dark:border-gray-400 dark:bg-gray-800 flex items-center justify-center sm:right-6 sm:top-6 sm:h-16 sm:w-16"
       onClick={toggleTheme}
     >
       {isDark ? (

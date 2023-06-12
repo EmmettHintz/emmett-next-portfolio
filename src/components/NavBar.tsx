@@ -3,7 +3,7 @@ import DarkModeToggle from "./DarkModeToggle";
 
 const NavBar = () => {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full pb-14">
 
       <DarkModeToggle />
 
