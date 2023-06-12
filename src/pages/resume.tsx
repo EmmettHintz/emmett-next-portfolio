@@ -12,12 +12,12 @@ const resume = () => {
 
         <div className="flex flex-col items-center justify-center pb-4 text-center text-primary-heading dark:text-primary-heading">
           <div>
-            <h2 className="pb-2 text-4xl font-bold sm:text-5xl md:text-6xl">
+            <h2 className="pb-2 text-4xl font-extrabold sm:text-5xl md:text-6xl">
               Emmett Hintz
             </h2>
           </div>
           <div>
-            <h3 className="sm:text-md pb-6 text-sm  text-secondary-heading  md:text-lg">
+            <h3 className="sm:text-md font-medium pb-6 text-sm  text-secondary-heading  md:text-lg">
               eahintz@colgate.edu | 215-767-1602 |{" "}
               <Link href="http://www.linkedin.com/in/emmett-hintz/">
                 LinkedIn.com/in/emmett-hintz/
@@ -78,7 +78,7 @@ const resume = () => {
                 sessions to best help with learning
               </p>
             </div>
-            <div className="pb-16space-y-4 pb-8  flex w-[100%] justify-between px-20 sm:space-y-0">
+            <div className="pb-16space-y-4 flex  w-[100%] justify-between px-20 pb-8 sm:space-y-0">
               <div className="sm:mr-4">
                 <Image
                   src="/ColgateImage.png"
@@ -92,7 +92,7 @@ const resume = () => {
               <div className="sm:ml-4">
                 <Image
                   src="/ColgateCampus.webp"
-                  className="aspect-square rounded-lg shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-neutral-600 hover:ring-opacity-50"
+                  className="aspect-square rounded-3xl shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-neutral-600 hover:ring-opacity-50"
                   alt="colgate-campus"
                   width={200}
                   height={200}
@@ -123,27 +123,26 @@ const resume = () => {
                 Colgate TAMID Group
               </p>
               <p className="pb-1 indent-5">
-                - Assembled financial models for the Colgate team in national TAMID events against other schools in stock pitch competitions
+                - Assembled financial models for the Colgate team in national
+                TAMID events against other schools in stock pitch competitions
               </p>
-
             </div>
 
-            <div className="pb-16space-y-4  pt-4 flex w-[100%] justify-between px-20 sm:space-y-0">
-              <div className="sm:mr-4">
+            <div className="pb-16space-y-4  flex w-[100%] justify-between px-20 pt-4 sm:space-y-0">
+              <div className="sm:ml-4">
                 <Image
-                  src="/ColgateImage.png"
-                  className="rounded-full shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-neutral-600 hover:ring-opacity-50"
-                  alt="colgate"
+                  src="/Cig.jpeg"
+                  className="rounded-3xl shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-neutral-600 hover:ring-opacity-50"
+                  alt="colgate-campus"
                   width={200}
                   height={200}
                 />
               </div>
-
-              <div className="sm:ml-4">
+              <div className="sm:mr-4">
                 <Image
-                  src="/Cig.jpeg"
-                  className="rounded-md shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-neutral-600 hover:ring-opacity-50"
-                  alt="colgate-campus"
+                  src="/tamid.png"
+                  className="rounded-full shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-neutral-600 hover:ring-opacity-50"
+                  alt="colgate"
                   width={200}
                   height={200}
                 />
@@ -184,11 +183,9 @@ const resume = () => {
             <div className="flex-row pb-1">
               <p className="font-medium text-tertiary-heading">Skills:</p>
               <p>
-                Web Development, Machine Learning (Learning), HTML, CSS, React.js, Next.js, Javascript
-                , Python,
-                Java , C,
-                Comps Analysis (Learning), DCF Reports (Learning), CapIQ
-                (Learning),
+                Web Development, Machine Learning (Learning), HTML, CSS,
+                React.js, Next.js, Javascript , Python, Java , C, Comps Analysis
+                (Learning), DCF Reports (Learning), CapIQ (Learning),
               </p>
             </div>
 
@@ -196,7 +193,8 @@ const resume = () => {
               <p className="font-medium text-tertiary-heading">Interests:</p>
 
               <p>
-              Running, Mountain Biking, Coding, Designing, Volleyball, Soccer, Weightlifting, Video Games
+                Running, Mountain Biking, Coding, Designing, Volleyball, Soccer,
+                Weightlifting, Video Games
               </p>
             </div>
           </div>
