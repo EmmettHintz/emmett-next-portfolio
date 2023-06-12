@@ -17,7 +17,7 @@ const resume = () => {
             </h2>
           </div>
           <div>
-            <h3 className="sm:text-md font-medium pb-6 text-sm  text-secondary-heading  md:text-lg">
+            <h3 className="sm:text-md pb-6 text-sm font-medium  text-secondary-heading  md:text-lg">
               eahintz@colgate.edu | 215-767-1602 |{" "}
               <Link href="http://www.linkedin.com/in/emmett-hintz/">
                 LinkedIn.com/in/emmett-hintz/
@@ -78,8 +78,8 @@ const resume = () => {
                 sessions to best help with learning
               </p>
             </div>
-            <div className="pb-16space-y-4 flex  w-[100%] justify-between px-20 pb-8 sm:space-y-0">
-              <div className="sm:mr-4">
+            <div className="pb-16space-y-4 flex  w-[100%] justify-between space-x-4 px-20 pb-8 sm:space-y-0">
+              <div>
                 <Image
                   src="/ColgateImage.png"
                   className="rounded-full shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-neutral-600 hover:ring-opacity-50"
@@ -89,7 +89,7 @@ const resume = () => {
                 />
               </div>
 
-              <div className="sm:ml-4">
+              <div>
                 <Image
                   src="/ColgateCampus.webp"
                   className="aspect-square rounded-3xl shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-neutral-600 hover:ring-opacity-50"
@@ -128,7 +128,7 @@ const resume = () => {
               </p>
             </div>
 
-            <div className="pb-16space-y-4  flex w-[100%] justify-between px-20 pt-4 sm:space-y-0">
+            <div className="pb-16space-y-4  flex w-[100%] justify-between px-20 pt-4 sm:space-y-0 space-x-4">
               <div className="sm:ml-4">
                 <Image
                   src="/Cig.jpeg"
