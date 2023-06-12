@@ -133,10 +133,40 @@ const resume = () => {
                 Sloop Software Group
               </p>
               <p className="pb-1">
-                - Worked as one of the lead front-end engineers on a team of 12 Colgate students with ambitions of breaking into the tech consulting space
+                - Worked as one of the lead front-end engineers on a team of 12
+                Colgate students with ambitions of breaking into the tech
+                consulting space
               </p>
               <p>
-                - Currently working on a mobile app, using React Native for another student run colgate startup
+                - Currently working on a mobile app, using React Native for
+                another student run colgate startup
+              </p>
+            </div>
+          </div>
+
+          <div className="pt-8">
+            <div className="w-fit pb-2">
+              <p className="font-medium text-primary-heading underline underline-offset-4 shadow-xl">
+                Skills & Interests
+              </p>
+            </div>
+
+            <div className="flex-row pb-1">
+              <p className="font-medium text-tertiary-heading">Skills:</p>
+              <p>
+                Web Development, Machine Learning (Learning), HTML, CSS, React.js, Next.js, Javascript
+                , Python,
+                Java , C,
+                Comps Analysis (Learning), DCF Reports (Learning), CapIQ
+                (Learning),
+              </p>
+            </div>
+
+            <div className="flex-row pb-1">
+              <p className="font-medium text-tertiary-heading">Interests:</p>
+
+              <p>
+              Running, Mountain Biking, Coding, Designing, Volleyball, Soccer, Weightlifting, Video Games
               </p>
             </div>
           </div>
