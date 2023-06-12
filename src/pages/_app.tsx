@@ -1,6 +1,6 @@
 import { api } from "~/utils/api";
 import "~/styles/globals.css";
-import { AppProps } from "next/app";
+import type { AppProps } from "next/app";
 import { ThemeProvider } from "next-themes";
 
 function MyApp({ Component, pageProps }: AppProps) {
