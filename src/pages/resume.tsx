@@ -5,17 +5,17 @@ import Link from "next/link";
 const resume = () => {
   return (
     <>
-      <main className="min-h-screen bg-white dark:bg-slate-800 px-4 sm:px-20 text-black dark:text-white">
+      <main className="min-h-screen bg-white dark:bg-bg-dark px-4 sm:px-20 text-text-light dark:text-text-dark">
         <div className="pb-4">
           <NavBar />
         </div>
 
-        <div className="flex flex-col justify-center items-center py-4 text-center text-black dark:text-white">
+        <div className="flex flex-col justify-center items-center py-4 text-center text-primary-heading dark:text-primary-heading">
           <div>
             <h2 className="pb-2 text-4xl sm:text-5xl md:text-6xl font-bold">Emmett Hintz</h2>
           </div>
           <div>
-            <h3 className="pb-6 text-sm sm:text-md md:text-lg">
+            <h3 className="pb-6 text-sm sm:text-md  text-secondary-heading  md:text-lg">
               eahintz@colgate.edu |
               215-767-1602 | <Link href="http://www.linkedin.com/in/emmett-hintz/">LinkedIn.com/in/emmett-hintz/</Link>
             </h3>
@@ -26,7 +26,7 @@ const resume = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 md:gap-x-36">
           <div className=" flex justify-between pb-2">
             <div>
-              <p className="underline underline-offset-4 shadow-md">
+              <p className="underline text-primary-heading underline-offset-4 shadow-xl">
                 Colgate University
               </p>
             </div>
@@ -37,7 +37,7 @@ const resume = () => {
 
           <div className="flex justify-between">
             <div>
-              <p className="underline underline-offset-4">
+              <p className="underline shadow-xl text-primary-heading underline-offset-4">
                 CAMPUS INVOLVEMENT & LEADERSHIP
               </p>
             </div>
