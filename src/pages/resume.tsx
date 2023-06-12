@@ -7,18 +7,18 @@ import Link from "next/link";
 const resume = () => {
   return (
     <>
-  <main className="min-h-screen bg-slate-800 px-4 sm:px-20 text-white">
+      <main className="min-h-screen bg-white dark:bg-slate-800 px-4 sm:px-20 text-black dark:text-white">
         <div className="pb-4">
           <NavBar />
         </div>
 
-        <div className="flex flex-col justify-center items-center py-4 text-center text-white">
+        <div className="flex flex-col justify-center items-center py-4 text-center text-black dark:text-white">
           <div>
-          <h2 className="pb-2 text-4xl sm:text-5xl md:text-6xl font-bold">Emmett Hintz</h2>
+            <h2 className="pb-2 text-4xl sm:text-5xl md:text-6xl font-bold">Emmett Hintz</h2>
           </div>
           <div>
-          <h3 className="pb-6 text-sm sm:text-md md:text-lg">
-          415 Ellerslie Avenue | Ambler, PA 19002 | eahintz@colgate.edu |
+            <h3 className="pb-6 text-sm sm:text-md md:text-lg">
+              415 Ellerslie Avenue | Ambler, PA 19002 | eahintz@colgate.edu |
               215-767-1602 | <Link href="http://www.linkedin.com/in/emmett-hintz/">LinkedIn.com/in/emmett-hintz/</Link>
             </h3>
           </div>
@@ -75,8 +75,8 @@ const resume = () => {
                 sessions to best help with learning
               </p>
             </div>
-            <div className="flex w-[100%] justify-between px-20 pb-16">
-              <div>
+            <div className="flex w-[100%] justify-between px-20 pb-16space-y-4 sm:space-y-0">
+              <div className="sm:mr-4">
                 <Image
                   src="/ColgateImage.png"
                   className="rounded-full shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-neutral-600 hover:ring-opacity-50"
@@ -86,7 +86,7 @@ const resume = () => {
                 />
               </div>
 
-              <div>
+              <div className="sm:ml-4">
                 <Image
                   src="/ColgateCampus.webp"
                   className="aspect-square rounded-full shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-neutral-600 hover:ring-opacity-50"
