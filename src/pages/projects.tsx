@@ -4,7 +4,7 @@ import { useTheme } from 'next-themes'
 
 const Projects = () => {
   return (
-    <main className="min-h-screen bg-white dark:bg-slate-800 px-4 sm:px-20">
+    <main className="min-h-screen bg-white dark:bg-bg-dark px-4 sm:px-20">
       <div>
         <NavBar />
       </div>

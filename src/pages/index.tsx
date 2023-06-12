@@ -12,8 +12,8 @@ const Home: NextPage = () => {
         <meta name="description" content="Emmett Hintz's Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="min-h-screen bg-white px-4 dark:bg-slate-800 sm:px-20">
-        <div className="">
+      <main className="min-h-screen bg-bg-light px-4 dark:bg-bg-dark sm:px-20">
+        <div>
           <NavBar />
         </div>
 
@@ -28,15 +28,15 @@ const Home: NextPage = () => {
             />
           </div>
 
-          <div className="flex h-auto flex-col justify-between gap-y-4 text-center text-black dark:text-white">
+          <div className="flex h-auto flex-col justify-between gap-y-4 text-center text-text-light dark:text-text-dark">
             <div>
-              <h2 className="hover text-4xl font-bold text-rose-400 transition-all duration-500 dark:text-rose-400 sm:text-6xl md:text-8xl">
+              <h2 className="hover text-4xl font-bold text-primary-heading transition-all duration-500 dark:text-primary-heading sm:text-6xl md:text-8xl">
                 Emmett Hintz
               </h2>
             </div>
 
             <div>
-              <h2 className="text-5xl font-bold text-sky-400 dark:text-sky-500 sm:text-5xl">
+              <h2 className="text-5xl font-bold text-secondary-heading dark:text-secondary-heading sm:text-5xl">
                 Full-Stack Developer
               </h2>
             </div>
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
             </div>
             <div>
               <p className="text-lg sm:text-xl md:text-3xl">
-                Currently, I am engaged in a small tech startup called Sloop
+                Currently, I am involved in a small tech startup called Sloop
                 Software. It is comprised of 11 other Colgate students and we
                 are working to break into tech consulting, creating full-stack
                 applications for clients. This fall I will be interning
