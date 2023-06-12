@@ -1,14 +1,26 @@
+import { useEffect, useState } from 'react';
 import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTheme } from 'next-themes'
 
 const DarkModeToggle: React.FC = () => {
   const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
   const isDark = theme === 'dark';
+
+  useEffect(() => {
+    // Component did mount
+    setMounted(true);
+  }, []);
 
   const toggleTheme = () => {
     setTheme(isDark ? 'light' : 'dark');
   };
+
+  // Avoid rendering the component on the server
+  if (!mounted) {
+    return null;
+  }
 
   return (
     <button
@@ -25,3 +37,4 @@ const DarkModeToggle: React.FC = () => {
 };
 
 export default DarkModeToggle;
+``
