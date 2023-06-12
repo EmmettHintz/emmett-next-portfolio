@@ -26,6 +26,12 @@ const NavBar = () => {
               <span className="hover:underline transition-all duration-300">Projects</span>
             </Link>
           </li>
+
+          <li className="pr-4">
+            <Link href="/contact">
+              <span className="hover:underline transition-all duration-300">Contact </span>
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
