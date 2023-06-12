@@ -10,7 +10,7 @@ const resume = () => {
           <NavBar />
         </div>
 
-        <div className="flex flex-col items-center justify-center py-4 text-center text-primary-heading dark:text-primary-heading">
+        <div className="flex flex-col items-center justify-center pb-4 text-center text-primary-heading dark:text-primary-heading">
           <div>
             <h2 className="pb-2 text-4xl font-bold sm:text-5xl md:text-6xl">
               Emmett Hintz
@@ -78,7 +78,7 @@ const resume = () => {
                 sessions to best help with learning
               </p>
             </div>
-            <div className="pb-16space-y-4 flex w-[100%] justify-between px-20 sm:space-y-0">
+            <div className="pb-16space-y-4 pb-8  flex w-[100%] justify-between px-20 sm:space-y-0">
               <div className="sm:mr-4">
                 <Image
                   src="/ColgateImage.png"
@@ -92,7 +92,7 @@ const resume = () => {
               <div className="sm:ml-4">
                 <Image
                   src="/ColgateCampus.webp"
-                  className="aspect-square rounded-full shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-neutral-600 hover:ring-opacity-50"
+                  className="aspect-square rounded-lg shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-neutral-600 hover:ring-opacity-50"
                   alt="colgate-campus"
                   width={200}
                   height={200}
@@ -112,12 +112,42 @@ const resume = () => {
                 - Oversaw a fifteen-person group focused on consumer retail and
                 creates DCF and comparable company analyses for stock pitches
                 that will be presented to the whole group and voted on by the
-                Executive Board{" "}
+                Executive Board
               </p>
               <p className="indent-5 ">
                 - Voted on stock pitches for the group’s $40,000 portfolio and
                 made decisions as to how to best organize the 180-person group
               </p>
+
+              <p className="font-medium text-tertiary-heading">
+                Colgate TAMID Group
+              </p>
+              <p className="pb-1 indent-5">
+                - Assembled financial models for the Colgate team in national TAMID events against other schools in stock pitch competitions
+              </p>
+
+            </div>
+
+            <div className="pb-16space-y-4  pt-4 flex w-[100%] justify-between px-20 sm:space-y-0">
+              <div className="sm:mr-4">
+                <Image
+                  src="/ColgateImage.png"
+                  className="rounded-full shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-neutral-600 hover:ring-opacity-50"
+                  alt="colgate"
+                  width={200}
+                  height={200}
+                />
+              </div>
+
+              <div className="sm:ml-4">
+                <Image
+                  src="/Cig.jpeg"
+                  className="rounded-md shadow-xl hover:shadow-2xl hover:ring-4 hover:ring-neutral-600 hover:ring-opacity-50"
+                  alt="colgate-campus"
+                  width={200}
+                  height={200}
+                />
+              </div>
             </div>
           </div>
 
