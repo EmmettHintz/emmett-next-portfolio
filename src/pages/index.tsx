@@ -48,17 +48,17 @@ const Home: NextPage = () => {
             <div>
               <p className="text-lg sm:text-xl md:text-3xl">
                 This summer, my focus is on building apps that pique my interest
-                and help me acquire new skills. I'm currently working on a few
-                exciting projects, so stay tuned!
+                and help me acquire new skills. I&apos;m currently working on a
+                few exciting projects, so stay tuned!
               </p>
             </div>
             <div>
               <p className="text-lg sm:text-xl md:text-3xl">
                 I am part of a budding tech startup, Sloop Software, alongside
-                11 fellow Colgate students. We're venturing into tech consulting
-                and creating full-stack applications for our clients.
-                Excitingly, I'll be joining Tewke in London as a junior software developer
-                intern this fall!"
+                11 fellow Colgate students. We&apos;re venturing into tech
+                consulting and creating full-stack applications for our clients.
+                Excitingly, I&apos;ll be joining Tewke in London as a junior
+                software developer intern this fall!
               </p>
             </div>
           </div>
