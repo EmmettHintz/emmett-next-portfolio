@@ -56,7 +56,7 @@ const resume = () => {
             </div>
             <p>Honors and Societies: </p>
             <p className="pb-1 indent-5">
-              - Dean’s Award for Academic Excellence (Spring 2022 - 2023)
+              - Dean’s Award for Academic Excellence With Distinction (Spring 2022 - 2023)
             </p>
             <p className="pb-1 indent-5">- Phi Eta Sigma Honors Society</p>
             <div>
@@ -117,9 +117,9 @@ const resume = () => {
           </div>
         </div>
 
-        <div>
+        <div className="pt-8">
           <p>
-            Next section placeholder for the rest of the resume. Add more later.
+            
           </p>
         </div>
       </main>
