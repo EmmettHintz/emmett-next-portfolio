@@ -1,15 +1,18 @@
-// src/contexts/ThemeContext.tsx
-
-import React, { createContext, useContext, useEffect, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 
 type ThemeContextType = {
   darkMode: boolean;
   toggleDarkMode: () => void;
 };
 
+type ThemeProviderProps = {
+  children: ReactNode;
+};
+
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
-export const ThemeProvider: React.FC = ({ children }) => {
+export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
+
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
