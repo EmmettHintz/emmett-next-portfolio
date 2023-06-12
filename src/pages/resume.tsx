@@ -31,7 +31,7 @@ const resume = () => {
               </p>
             </div>
             <div>
-              <p className=" font-bold">Hamilton NY</p>
+              <p className="text-secondary-heading font-bold">Hamilton NY</p>
             </div>
           </div>
 
@@ -42,7 +42,7 @@ const resume = () => {
               </p>
             </div>
             <div>
-              <p className=" font-bold">2021-2023</p>
+              <p className="text-secondary-heading font-bold">2021-2023</p>
             </div>
           </div>
 
