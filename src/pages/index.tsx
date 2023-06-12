@@ -2,7 +2,6 @@ import { type NextPage } from "next";
 import Head from "next/head";
 import NavBar from "~/components/NavBar";
 import Image from "next/image";
-import { useTheme } from "next-themes";
 
 const Home: NextPage = () => {
   return (

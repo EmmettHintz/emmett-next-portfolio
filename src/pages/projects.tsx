@@ -1,6 +1,5 @@
 import Link from "next/link";
 import NavBar from "~/components/NavBar";
-import { useTheme } from "next-themes";
 
 const Projects = () => {
   return (
