@@ -76,7 +76,7 @@ const resume = () => {
                 environment, preparing materials, and designing a lab plan
               </p>
               <p className="pb-8 indent-5">
-                - Offered individual attention to students during group sessions to optimize their learning experiences."
+                - Offered individual attention to students during group sessions to optimize their learning experiences.
               </p>
             </div>
             <div className="pb-16space-y-4 flex  w-[100%] justify-between space-x-4 px-20 pb-8 sm:space-y-0">
