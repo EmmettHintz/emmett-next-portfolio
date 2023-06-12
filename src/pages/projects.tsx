@@ -28,7 +28,7 @@ const Projects = () => {
           </p>
 
           <p className="text-lg sm:text-xl md:text-3xl">
-            I have solid experience in front-end development and I'm currently
+            I have solid experience in front-end development and I am currently
             in the process of expanding my skills into back-end development. My
             ultimate goal is to be able to build and deploy AI-powered
             applications.
@@ -54,8 +54,8 @@ const Projects = () => {
           </p>
 
           <p className="text-lg sm:text-xl md:text-3xl">
-            I am currently engaging with the course 'Practical Deep Learning for
-            Coders' by fast.ai to gain a deeper understanding of neural networks
+            I am currently engaging with the course &apos;Practical Deep Learning for
+            Coders&apos; by fast.ai to gain a deeper understanding of neural networks
             and deep learning. My aim is to apply my web development
             skills towards improving human-computer interaction (HCI) and deploying apps using deep learning.
           </p>

@@ -117,7 +117,7 @@ const resume = () => {
                 Board.
               </p>
               <p className="indent-5 ">
-                - Participated in voting on stock pitches for the group’s
+                - Participated in voting on stock pitches for the group&apos;s
                 $40,000 portfolio and contributed to decisions regarding the
                 best way to organize the 180-member group.
               </p>
