@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Emmett Hintz's Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="min-h-screen bg-white dark:bg-slate-800 px-4 sm:px-20">
+      <main className="min-h-screen bg-white px-4 dark:bg-slate-800 sm:px-20">
         <div className="">
           <NavBar />
         </div>
@@ -20,16 +20,16 @@ const Home: NextPage = () => {
           <div className="flex justify-center bg-cover py-4">
             <Image
               src="/Emmett.jpg"
-              className="rounded-full shadow-xl transition-all duration-1000 hover:scale-105 hover:shadow-2xl sm:h-auto sm:w-1/3 md:h-auto md:w-3/4 lg:h-auto lg:w-2/3"
+              className="rounded-full object-cover shadow-xl transition-all duration-1000 hover:scale-105 hover:shadow-2xl sm:h-32 sm:w-32 md:h-48 md:w-48 lg:h-[40rem] lg:w-[40rem]"
               alt="Emmett Hintz"
               width={500}
               height={500}
             />
           </div>
 
-          <div className="flex h-auto flex-col justify-between gap-y-1 text-black dark:text-white text-center">
+          <div className="flex h-auto flex-col justify-between gap-y-4 text-center text-black dark:text-white">
             <div>
-              <h2 className="hover text-4xl font-bold text-rose-400 dark:text-rose-400 transition-all duration-500 sm:text-6xl md:text-8xl">
+              <h2 className="hover text-4xl font-bold text-rose-400 transition-all duration-500 dark:text-rose-400 sm:text-6xl md:text-8xl">
                 Emmett Hintz
               </h2>
             </div>
@@ -54,7 +54,11 @@ const Home: NextPage = () => {
             </div>
             <div>
               <p className="text-lg sm:text-xl md:text-3xl">
-                Currently, I am engaged in a small tech startup called Sloop Software. It is comprised of 11 other Colgate students and we are working to break into tech consulting, creating full-stack applications for clients. We work This fall I will be interning at Tewke as a junior software developer!
+                Currently, I am engaged in a small tech startup called Sloop
+                Software. It is comprised of 11 other Colgate students and we
+                are working to break into tech consulting, creating full-stack
+                applications for clients. We work This fall I will be interning
+                at Tewke as a junior software developer!
               </p>
             </div>
           </div>
