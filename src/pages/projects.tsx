@@ -15,7 +15,7 @@ const Projects = () => {
         </h2>
       </div>
 
-      <div className="flex justify-center py-8">
+      <div className="flex justify-center py-4">
         <p className="text-center text-lg text-tertiary-heading sm:text-xl md:text-3xl">
           This summer, I am working on a few areas that currently interest me
           and I will be posting updates here.
@@ -24,20 +24,21 @@ const Projects = () => {
 
       <div className="grid h-auto grid-cols-1 gap-x-7 py-8 md:grid-cols-2">
         <div className="flex flex-col items-center justify-center gap-y-1 text-center text-text-light dark:text-text-dark">
-          <p className="text-2xl pb-4 font-semibold text-primary-heading dark:text-primary-heading sm:text-4xl md:text-6xl">
+          <p className="pb-4 text-2xl font-semibold text-primary-heading dark:text-primary-heading sm:text-4xl md:text-6xl">
             Full-Stack Development
           </p>
 
           <p className="text-lg sm:text-xl md:text-3xl">
-            I am currently experienced with front-end development and I am
-            presently teaching myself back-end skills with the goal of
-            developing mid to large scale AI powered applications.
+            I have solid experience in front-end development and I'm currently
+            in the process of expanding my skills into back-end development. My
+            ultimate goal is to be able to build and deploy AI-powered
+            applications.
           </p>
         </div>
 
         <div className="flex flex-col items-center justify-center gap-y-1 text-center text-text-light dark:text-text-dark">
           <p className="py-4 text-2xl font-bold text-secondary-heading dark:text-secondary-heading sm:text-4xl md:text-6xl">
-            Present project:
+            Present Project:
           </p>
 
           <Link
@@ -48,19 +49,22 @@ const Projects = () => {
           </Link>
         </div>
 
-        <div className="flex flex-col pt-16 items-center justify-center gap-y-1 py-8 text-center text-text-light dark:text-text-dark">
-          <p className="text-2xl pb-4 font-semibold text-primary-heading dark:text-primary-heading sm:text-4xl md:text-6xl">
+        <div className="flex flex-col items-center justify-center gap-y-1 py-8 pt-16 text-center text-text-light dark:text-text-dark">
+          <p className="pb-4 text-2xl font-semibold text-primary-heading dark:text-primary-heading sm:text-4xl md:text-6xl">
             Machine Learning + Fast.AI
           </p>
 
           <p className="text-lg sm:text-xl md:text-3xl">
-            I am following along with fast.ai's Practical Deep Learning for Coders course and textbook to learn about neural networks and deep learning. I want to learn to deploy apps using these ideas and apply my web-development skills towards HCI.
+            I am currently engaging with the course 'Practical Deep Learning for
+            Coders' by fast.ai to gain a deeper understanding of neural networks
+            and deep learning. My aim is to apply my web development
+            skills towards improving human-computer interaction (HCI) and deploying apps using deep learning.
           </p>
         </div>
 
-        <div className="flex flex-col py-4items-center justify-center gap-y-1 text-center text-text-light dark:text-text-dark">
-          <p className="text-2xl font-bold pb-4 text-secondary-heading dark:text-secondary-heading sm:text-4xl md:text-6xl">
-            Present project:
+        <div className="py-4items-center flex flex-col justify-center gap-y-1 text-center text-text-light dark:text-text-dark">
+          <p className="pb-4 text-2xl font-bold text-secondary-heading dark:text-secondary-heading sm:text-4xl md:text-6xl">
+            Present Goal:
           </p>
 
           <Link

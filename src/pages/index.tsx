@@ -2,7 +2,7 @@ import { type NextPage } from "next";
 import Head from "next/head";
 import NavBar from "~/components/NavBar";
 import Image from "next/image";
-import { useTheme } from 'next-themes'
+import { useTheme } from "next-themes";
 
 const Home: NextPage = () => {
   return (
@@ -42,24 +42,24 @@ const Home: NextPage = () => {
             </div>
             <div>
               <p className="text-lg sm:text-xl md:text-3xl">
-                Hello! My name is Emmett and I am a rising junior at Colgate
-                University and I am teaching myself full stack development.
+                Hello! My name is Emmett Hintz, a rising junior at Colgate
+                University, currently learning full-stack development.
               </p>
             </div>
             <div>
               <p className="text-lg sm:text-xl md:text-3xl">
-                This summer, I am focusing on building apps that interest me and
-                will help me learn new skills. I have a few projects in the
-                works, so stay tuned!
+                This summer, my focus is on building apps that pique my interest
+                and help me acquire new skills. I'm currently working on a few
+                exciting projects, so stay tuned!
               </p>
             </div>
             <div>
               <p className="text-lg sm:text-xl md:text-3xl">
-                Currently, I am involved in a small tech startup called Sloop
-                Software. It is comprised of 11 other Colgate students and we
-                are working to break into tech consulting, creating full-stack
-                applications for clients. This fall I will be interning
-                at Tewke as a junior software developer!
+                I am part of a budding tech startup, Sloop Software, alongside
+                11 fellow Colgate students. We're venturing into tech consulting
+                and creating full-stack applications for our clients.
+                Excitingly, I'll be joining Tewke in London as a junior software developer
+                intern this fall!"
               </p>
             </div>
           </div>

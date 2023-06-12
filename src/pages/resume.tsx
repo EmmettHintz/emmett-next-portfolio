@@ -54,28 +54,29 @@ const resume = () => {
           <div className="pb-1">
             <div className="flex justify-between">
               <p className="font-medium text-tertiary-heading">
-                Computer Science and Economics Double Major
+                Double Major in Computer Science and Economics
               </p>
               <p>GPA: 3.79</p>
             </div>
             <p>Honors and Societies: </p>
             <p className="pb-1 indent-5">
-              - Dean’s Award for Academic Excellence With Distinction (Spring
-              2022 - 2023)
+              - Received the Dean’s Award for Academic Excellence With
+              Distinction (Spring 2022 - 2023)
             </p>
-            <p className="pb-1 indent-5">- Phi Eta Sigma Honors Society</p>
+            <p className="pb-1 indent-5">
+              - Member of Phi Eta Sigma Honors Society
+            </p>
             <div>
               <p className="font-medium text-tertiary-heading">
                 Colgate University Computer Science Department, Teaching
                 Assistant
               </p>
               <p className="indent-5">
-                - Assisted the professor in organizing the learning environment,
-                preparing materials, and creating a lab plan
+                - Assisted the professor in structuring the learning
+                environment, preparing materials, and designing a lab plan
               </p>
               <p className="pb-8 indent-5">
-                - Provided individual attention to students during group
-                sessions to best help with learning
+                - Offered individual attention to students during group sessions to optimize their learning experiences."
               </p>
             </div>
             <div className="pb-16space-y-4 flex  w-[100%] justify-between space-x-4 px-20 pb-8 sm:space-y-0">
@@ -109,26 +110,29 @@ const resume = () => {
                 Consumer Retail Leader
               </p>
               <p className="pb-1 indent-5">
-                - Oversaw a fifteen-person group focused on consumer retail and
-                creates DCF and comparable company analyses for stock pitches
-                that will be presented to the whole group and voted on by the
-                Executive Board
+                - Supervised a team of fifteen, focusing on consumer retail, and
+                contributed to the creation of DCF and comparable company
+                analyses for stock pitches. These pitches were subsequently
+                presented to the whole group and voted on by the Executive
+                Board.
               </p>
               <p className="indent-5 ">
-                - Voted on stock pitches for the group’s $40,000 portfolio and
-                made decisions as to how to best organize the 180-person group
+                - Participated in voting on stock pitches for the group’s
+                $40,000 portfolio and contributed to decisions regarding the
+                best way to organize the 180-member group.
               </p>
 
               <p className="font-medium text-tertiary-heading">
                 Colgate TAMID Group
               </p>
               <p className="pb-1 indent-5">
-                - Assembled financial models for the Colgate team in national
-                TAMID events against other schools in stock pitch competitions
+                - Constructed financial models for the Colgate team to use in
+                national TAMID events, competing against other schools in stock
+                pitch competitions.
               </p>
             </div>
 
-            <div className="pb-16space-y-4  flex w-[100%] justify-between px-20 pt-4 sm:space-y-0 space-x-4">
+            <div className="pb-16space-y-4  flex w-[100%] justify-between space-x-4 px-20 pt-4 sm:space-y-0">
               <div className="sm:ml-4">
                 <Image
                   src="/Cig.jpeg"
@@ -162,13 +166,13 @@ const resume = () => {
                 Sloop Software Group
               </p>
               <p className="pb-1">
-                - Worked as one of the lead front-end engineers on a team of 12
-                Colgate students with ambitions of breaking into the tech
-                consulting space
+                - Serving as a lead front-end engineer within a dynamic team of
+                12 Colgate students, we are eager to make our mark in the tech
+                consulting space.
               </p>
               <p>
-                - Currently working on a mobile app, using React Native for
-                another student run colgate startup
+                - Currently working on the development of a mobile app using
+                React Native, designed for a student-run startup at Colgate.
               </p>
             </div>
           </div>
@@ -184,7 +188,7 @@ const resume = () => {
               <p className="font-medium text-tertiary-heading">Skills:</p>
               <p>
                 Web Development, Machine Learning (Learning), HTML, CSS,
-                React.js, Next.js, Javascript , Python, Java , C, Comps Analysis
+                React.js, Next.js, Javascript, Python, Java , C, Comps Analysis
                 (Learning), DCF Reports (Learning), CapIQ (Learning),
               </p>
             </div>
