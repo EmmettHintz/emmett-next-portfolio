@@ -7,7 +7,7 @@ const NavBar = () => {
 
       <DarkModeToggle />
 
-      <div className="text-rose-400 text-xl">
+      <div className="text-secondary-heading text-xl">
         <ul className="nav-links flex  items-center justify-items-center py-4">
           <li className="pr-4">
             <Link href="/">
