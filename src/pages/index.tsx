@@ -58,7 +58,7 @@ const Home: NextPage = () => {
                 Currently, I am engaged in a small tech startup called Sloop
                 Software. It is comprised of 11 other Colgate students and we
                 are working to break into tech consulting, creating full-stack
-                applications for clients. We work This fall I will be interning
+                applications for clients. This fall I will be interning
                 at Tewke as a junior software developer!
               </p>
             </div>
