@@ -13,6 +13,7 @@ export default {
         
         'primary-heading': '#FC5185',
         'secondary-heading': '#3FC1C9',
+        'tertiary-heading': '#faa307'
       },
     },
   },
