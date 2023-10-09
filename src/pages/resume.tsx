@@ -73,7 +73,7 @@ const resume = () => {
               </p>
               <p className="indent-5">
                 - Assisted the professor in structuring the learning
-                environment, preparing materials, and designing a lab plan
+                environment, preparing materials, and designing a lab plan.
               </p>
               <p className="pb-8 indent-5">
                 - Offered individual attention to students during group sessions to optimize their learning experiences.
