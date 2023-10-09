@@ -189,7 +189,7 @@ const resume = () => {
               <p>
                 Web Development, Machine Learning (Learning), HTML, CSS,
                 React.js, Next.js, Javascript, Python, Java , C, Comps Analysis
-                (Learning), DCF Reports (Learning), CapIQ (Learning),
+                (Learning), DCF Reports (Learning), CapIQ (Learning)
               </p>
             </div>
 
